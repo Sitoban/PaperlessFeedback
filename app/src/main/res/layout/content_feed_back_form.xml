@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a1018651.obhs.FeedBackTypeActivity"
+    tools:showIn="@layout/activity_feed_back_type">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/questionListLayout">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/feedBackSubmitButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
